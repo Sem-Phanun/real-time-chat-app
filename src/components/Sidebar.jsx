@@ -1,6 +1,6 @@
 import Navbar from "./Navbar"
 import Search from "./Search"
-import Chat from "./Chat"
+import Chats from "./Chats"
 
 const Sidebar = () => {
   return (
@@ -8,7 +8,7 @@ const Sidebar = () => {
         <div className="sidebar">
             <Navbar />
             <Search/>
-            <Chat/>
+            <Chats/>
         </div>
     </>
   )
